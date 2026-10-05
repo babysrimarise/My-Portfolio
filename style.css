@@ -436,3 +436,23 @@ section {
 #skills p {
     color: #4b5563;
 }
+/* EDUCATION POLISH */
+
+#education > div {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #38bdf8;
+}
+
+#education > div:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#education h3 {
+    color: #111827;
+    font-size: 21px;
+}
+
+#education strong {
+    color: #2563eb;
+}
