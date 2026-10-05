@@ -673,3 +673,75 @@ section {
     color: #111827;
     transform: translateY(-3px);
 }
+
+/* FINAL MOBILE POLISH */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 15px 5%;
+    }
+
+    nav h2 {
+        font-size: 21px;
+    }
+
+    nav ul {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    nav ul li a {
+        font-size: 12px;
+        padding: 7px 9px;
+    }
+
+    .nav-resume,
+    .nav-linkedin {
+        padding: 7px 9px !important;
+    }
+
+    #home {
+        min-height: auto;
+        padding: 70px 6%;
+    }
+
+    .home-container {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .home-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .home-content h1 {
+        font-size: 34px;
+    }
+
+    .home-content h2 {
+        font-size: 18px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    #skills > div,
+    #projects > div,
+    #education > div {
+        width: 100%;
+    }
+
+    #about,
+    #skills,
+    #projects,
+    #education,
+    #training,
+    #contact {
+        padding: 55px 6%;
+    }
+}
